@@ -1,0 +1,12 @@
+{
+  "name": "3-1_require_vs_import",
+  "version": "1.0.0",
+  "description": "",
+  "main": "imp_vs_req.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
