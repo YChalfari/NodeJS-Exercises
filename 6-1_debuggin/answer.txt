@@ -1,0 +1,7 @@
+foodObj is not an array.  
+Therefore cannot iterate over an object using forEach.
+
+=> Fix
+foodObj.meat.forEach((meatItem) => {
+        obj[meatItem] = obj[meatItem] + 1 || 1;
+      });
