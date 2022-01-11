@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "axios": "^0.24.0",
+    "request": "^2.88.2",
+    "superagent": "^7.0.1"
+  }
+}
