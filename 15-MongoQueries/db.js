@@ -14,7 +14,9 @@ db.restaurants.find({ "address.city": "Holon" });
 db.restaurants.find({ "address.street": "Herzel 15" });
 
 //! 1.6 query specific coordinates
-db.restaurants.find({ "address.coordinates": [20.1, -40.1234] });
+db.restaurants.findOne({
+  _id: ObjectId("61e53f5f29218b268cf19619"),
+}).address.coordinates;
 
 //! 1.7 query all rest sorted by  name ascending
 db.restaurants.find().sort({ name: 1 }).pretty();
